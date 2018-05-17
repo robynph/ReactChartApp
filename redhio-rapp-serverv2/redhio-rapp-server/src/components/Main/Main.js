@@ -97,11 +97,11 @@ export default class Main extends Component {
 
             </div>
             <div className="App">
-              <ListWidgetContainer href="http://localhost:3001/stats/top" heading="Top Ticket Answerers" rowspan={3} />
+              <ListWidgetContainer href="http://localhost:3001/stats/top" heading="Top Ticket Answerers" rowspan={2} />
               <NumberWidgetContainer href="http://localhost:3001/tickets/open" heading="Open Ticket Total" />
               <NumberWidgetContainer href="http://localhost:3001/tickets/today" heading="Tickets Opened Today" />
-              <GraphWidgetContainer href="http://localhost:3001/tickets/progression" heading="Tickets Over Time" colspan={2} rowspan={2} />
-
+              <NumberWidgetContainer href="http://localhost:3001/tickets/today" heading="Tickets Opened Today" />
+              <GraphWidgetContainer href="http://localhost:3001/tickets/progression" heading="Tickets Over Time" colspan={3} rowspan={1} />
             </div>
           </div>
         }
@@ -122,9 +122,8 @@ export default class Main extends Component {
   render () {
     return (
       <div className="container-wide">
-        <div className="main">
           { this.renderContent() }
-        </div>
+
       </div>
     );
   }
