@@ -1,0 +1,5 @@
+API Key: 4d0914ed01d6de6c45eb922e5bb43102
+Password: 14b1e66210b480c75e5de7966ec4d5e9
+URL Example: https://4d0914ed01d6de6c45eb922e5bb43102:14b1e66210b480c75e5de7966ec4d5e9@redhio.myshopify.com/admin/orders.json
+Shared Secret: 0cdbab1f0b4c4f40939c44aedeb28543
+Storefront Access Token: 9aef3c62e3a4aebb32420e157486d8da
