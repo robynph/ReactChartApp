@@ -22,7 +22,7 @@ app.get('/tickets/urgent', function (req, res) {
 
 app.get('/tickets/progression', function (req, res) {
     let labels = ["Opened Tickets", "Closed Tickets"];
-    let colors = ["#e74c3c", "#27ae60"];
+    let colors = ["#a31f1f", "#000000"];
     let values = [];
 
     labels.forEach((label, index) => {
@@ -81,7 +81,7 @@ app.get('/stats/top', function (req, res) {
             label: "Rob",
             value: Math.floor(Math.random() * 5) + 7
         }
-    ]);    
+    ]);
 });
 
 app.get('/stats/*', function (req, res) {

@@ -28,7 +28,7 @@ class GraphWidget extends Component {
                         ticks: {
                             fontFamily: "'Didact Gothic', sans-serif",
                             fontSize: 18,
-                            fontColor: "#ecf0f1",
+                            fontColor: "#3a3838",
                         },
                         gridLines: {
                             display: false
@@ -39,7 +39,7 @@ class GraphWidget extends Component {
                             beginAtZero: true,
                             fontFamily: "'Didact Gothic', sans-serif",
                             fontSize: 18,
-                            fontColor: "#ecf0f1",
+                            fontColor: "#3a3838",
                         },
                         gridLines: {
                             display: false
